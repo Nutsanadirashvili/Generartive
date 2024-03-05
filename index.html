@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="de">
+
+<!-- ############################################################################ 
+
+Kurs «Generative Gestaltung» an der TH Köln
+Christian Noss
+christian.noss@th-koeln.de
+https://twitter.com/cnoss
+https://cnoss.github.io/generative-gestaltung/
+    
+############################################################################ -->
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Portfolio Generative Gestaltung von Nino (Nutsa) Nadirashvili</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/portfolio/010-resets.css">
+  <link rel="stylesheet" href="assets/css/portfolio/020-base.css">
+  <link rel="stylesheet" href="assets/css/portfolio/030-layout.css">
+  <link rel="stylesheet" href="assets/css/portfolio/040-modules.css">
+  <link rel="stylesheet" href="assets/css/portfolio/050-addons.css">
+
+</head>
+
+<body>
+
+  <header id="l-mainHeader">
+    <h1 class="l-mainHeader-title">
+      <span class="l-mainHeader-title__content">Gestaltungsportfolio</span>
+      <span class="l-mainHeader-title__context">Generative Gestaltung</span>
+      <span class="l-mainHeader-title__author">von Nino Nadirashvili</span>
+      <span class="l-mainHeader-title__year">ws2021/22</span>
+    </h1>
+
+    <div class="l-hauptmotiv">
+      <!-- ContentBlock 
+          ####################################################################-->
+        <figure class="m-portfolioItem">
+          <img class="m-portfolioItem-image" src="result-farbe/hauptmotiv - farbe.png">
+          <figcaption>
+            <h2 class="m-portfolioItem-title">Perfect Random Chaos</h2>
+            <h3 class="m-portfolioItem-subtitle">Farbe: Perlin Noise und Random</h3>
+            <p>Der vorhandene Sketch verwendet die Perlin-Noise Funktion und in Vektoren konvertierte Punkte, um ein Flow Field zu erstellen. Die Farbe der Partikel 
+              sind zufällig (RGB Colormode), ebenso wie die Koordinaten der Partikel. Die Partikel nehmen mit jedem Mausklick eine neue zufällige Farbe an und die 
+              Bewegungsrichtung ändert sich mit Hilfe von NoiseSeed. <br><br>
+              <b>Anpassbare Parameter:</b><br>
+              - Hintergrundtransparenz (Alpha), damit wir vorherigen Iterationen sehen können.<br>
+              - cos-Index, der Richtung und Geschwindigkeit von den sich bewegenden Partikeln ändert.<br>
+              - Noise Scale, die weniger Zufälligkeit und flüssigere Bewegung bietet. <br>
+              Basierend auf diesen Parametern habe ich drei Presets erstellt: <b>Chaos, Upside Down und Windy.</b> <br><br>
+              Kontrastarten: Qualitätskontrast, Hell-Dunkel Kontrast, Kalt-Warm Kontrast, Komplementärkontrast. <br>
+              Gestaltsgesetze: Das Gesetz der Geschlossenheit,  der Nähe, des gemeinsamen Schicksals,  der Ähnlichkeit.<br><br>
+              <b>Warum als Hauptmotiv:</b> Die Hauptidee dieses Sketches ist, die Vorteile der Zufälligkeit zu zeigen. Während der Arbeit stellte ich fest, dass 
+              die mit jedem Klick erstellten Farbkombinationen harmonisch sind. Interessant ist auch der Erwartungsfaktor der User, nicht zu wissen, welche Farbe 
+              herauskommt und welche Farbkombination wir bekommen. <br><br>
+              <i>Sketch v2 - Alternative Variante, in der der Hintergrund statt in der Draw Funktion in der Setup Funktion ist.</i>
+              .<br><br>
+              <b>Anmerkung:</b> Aus irgendeinem Grund ist die Qualität der Skizze nicht optimal. Um eine bessere Qualität zu sehen, können Sie 
+              vorübergehend den P5.js Editor verwenden: <a href="https://editor.p5js.org/Nutsanadirashvili/full/SLV8mmsAn"> Click here </a></p>
+            <p></p>
+            <p></p>
+            <p><a class="m-linkButton m-linkButton--invers" href="result-farbe/index.html">Sketch zeigen</a></p>
+            <p><a class="m-linkButton m-linkButton--invers" href="result-farbe/index v2.html">Sketch v2 zeigen</a></p>
+          </figcaption>
+        </figure>
+    </div>
+  </header>
+
+  <main id="l-mainContent">
+    <div class="l-grid-for-large-items">
+
+      <!-- ContentBlock 
+        ####################################################################-->
+      <figure class="m-portfolioItem">
+        <img class="m-portfolioItem-image" src="result-punkt-linie-flaeche/flaeche.jpg">
+        <figcaption>
+          <h2 class="m-portfolioItem-title">Window</h2>
+          <h3 class="m-portfolioItem-subtitle">Fläsche</h3> 
+          <p>Dieser Sketch verwendet 100 in der Mitte platzierte Rechtecke, die in einer For-Schleife erzeugt werden und sich drehen. Eine scheinbar einfache Skizze 
+            wird durch mehrere anpassbaren Parameter abwechslungsreich. So erhalten wir unterschiedliche visuelle Illusionen. Für die Vielfältigkeit wird die Farbe 
+            mit dem i - Parameter (for loop) gemapt, was letztendlich einen dynamischen Gradienten zwischen Blau und Rot erzeugt. Die Überdeckung der Rechtecken schafft
+             mehr Tiefe. Für den hohen Komplementärkontrast dieser beiden Farben wird ein schwarzer Hintergrund verwendet.<br><br>
+             <b>Anpassbare Parameter:</b><br>
+             Breite des Rechtecks, Dicke seines Striches (Stroke), Bewegungsgeschwindigkeit, Hintergrundtransparenz (Alpha) und Scale, die den Zoom-Effekt erzeugt. 
+            </p>
+          <p><a class="m-linkButton" href="result-punkt-linie-flaeche/index.html">Sketch zeigen</a></p>
+                
+        </figcaption>
+      </figure>
+
+      <!-- ContentBlock 
+        ####################################################################-->
+      <figure class="m-portfolioItem">
+        <img class="m-portfolioItem-image" src="result-freie-arbeit/freie_arbeit.jpg">
+        <figcaption>
+          <h2 class="m-portfolioItem-title">Shaped Sunset</h2>
+          <h3 class="m-portfolioItem-subtitle">Freie Arbeit</h3>
+          <p>In diesem Sketch habe ich mich vor allem mit dem Kalt-Warm-Farbkontrast beschäftigt, da dieser als emotionalster und ausdrucksstärkster Farbkontrast gilt. 
+            Die horizontalen, zentrierten Linien bewegen sich vertikal. Je weiter oben, die Linie ist, desto gelber ist diese. Je weiter unten, desto oranger.
+            Durch den niedrigen Hintergrundalpha sind die Linien nicht mehr einzeln erkennbar und es entsteht ein flüssiger Farbverlauf von gelb nach orange. Um den 
+            Ganzen eine runde Form zu verleihen wird ein durchsichtiger Kreis gezeichnet, dessen Umrandung sehr dick ist. So entsteht eine Donut-Form und die Linien 
+            sind nur noch in der Donut Mitte sichtbar. Durch das Setzen der Checkbox Sunset, beginnt die Sonne unterzugehen.<br>
+            Die Wellen bestehen aus Kurven, für die die Noise-Funktion verwendet wurde, um eine flüssige, wellenförmig Bewegung zu erzeugen. Vervollständigt wird das 
+            Bild des Sonnenunterganges durch ein Bild von Vögeln, die in den Sonnenuntergang fliegen. Das Bild bewegt sich horizontal von rechts nach links. 
+            Im Zusammenspiel mit den Linien im Hintergrund entsteht auch eine Illusion der Bewegung im Bild. <br><br>
+            <b>Anpassbare Parameter:</b>
+            Hintergrundtransparenz, WaveFade, Sunset.</p>
+
+          <p><a class="m-linkButton" href="result-freie-arbeit/">Sketch zeigen</a></p>
+        </figcaption>
+      </figure>
+    </div>
+
+  </main>
+
+  <footer id="l-mainFooter">
+    <p>
+      Diese Arbeiten sind im Rahmen des Kurses <a href="https://cnoss.github.io/generative-gestaltung/">Generative
+        Gestaltung</a> im Studiengang <a href="https://coco.study/">Code & Context</a> an der <a
+        href="https://www.th-koeln.de/">TH Köln</a> entstanden.
+    </p>
+  </footer>
+
+</body>
+
+</html>
